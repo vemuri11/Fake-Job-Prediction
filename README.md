@@ -3,14 +3,14 @@
 📌 PROJECT SUMMARY
 This project identifies whether a job posting is real or fake using machine learning and natural language processing (NLP). The goal is to help job seekers avoid fraudulent job advertisements by analyzing the text and patterns in job listings.
 
-🌐 KEY FEATURES
+🌐 KEY FEATURES 
 Uses real-world dataset from Kaggle with around 18,000 job listings.
 Applies text preprocessing and feature extraction techniques such as TF-IDF.
 Trains multiple machine learning models to detect fake job posts.
 Provides a user-friendly graphical interface (GUI) using Python's Tkinter.
 Displays model performance and comparison through visual graphs.
 
-📊 DATASET DETAILS
+📊 DATASET DETAILS :
 The dataset contains job postings with columns like:
 Job title
 Company profile
