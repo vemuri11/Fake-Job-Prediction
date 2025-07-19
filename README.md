@@ -114,5 +114,7 @@ Include real-time job scraping and live prediction
 Improve UI with additional features like CSV export
 
 📬 CONTACT
+
 Author: vemuri11
+
 GitHub: https://github.com/vemuri11/Fake-Job-Prediction
