@@ -1,24 +1,37 @@
 🕵️‍♂️ FAKE JOB PREDICTION USING MACHINE LEARNING AND NLP
+Author: vemuri11
 
 📌 PROJECT SUMMARY
 This project identifies whether a job posting is real or fake using machine learning and natural language processing (NLP). The goal is to help job seekers avoid fraudulent job advertisements by analyzing the text and patterns in job listings.
 
-🌐 KEY FEATURES 
+🌐 KEY FEATURES
 Uses real-world dataset from Kaggle with around 18,000 job listings.
+
 Applies text preprocessing and feature extraction techniques such as TF-IDF.
+
 Trains multiple machine learning models to detect fake job posts.
+
 Provides a user-friendly graphical interface (GUI) using Python's Tkinter.
+
 Displays model performance and comparison through visual graphs.
 
-📊 DATASET DETAILS :
+📊 DATASET DETAILS
 The dataset contains job postings with columns like:
+
 Job title
+
 Company profile
+
 Job description
+
 Requirements
+
 Benefits
+
 Location
+
 Industry
+
 And a target label: 'fraudulent' (0 = real, 1 = fake)
 
 🔄 WORKFLOW
@@ -27,7 +40,9 @@ Users can upload the dataset directly through the GUI.
 
 2. DATA PREPROCESSING
 Handles missing values.
+
 Removes stopwords and punctuation.
+
 Applies stemming and lemmatization using NLTK.
 
 3. TEXT TO VECTOR CONVERSION
@@ -35,13 +50,21 @@ Converts job description text to numerical features using TF-IDF vectorization.
 
 4. MODEL TRAINING AND EVALUATION
 Supports multiple algorithms:
+
 Support Vector Machine (SVM)
+
 Random Forest
+
 K-Nearest Neighbors (KNN)
+
 Naive Bayes
+
 Decision Tree
+
 Multilayer Perceptron (MLP)
+
 Measures accuracy, precision, recall, and F1-score for each model.
+
 Displays a comparison graph for visual understanding.
 
 5. PREDICTION INTERFACE
@@ -51,18 +74,31 @@ Users can run any model directly from the GUI and view results in real-time.
 Step 1: Install required Python libraries
 Step 2: Run the Python script called main.py
 Step 3: Use the GUI to upload the dataset and click through each step:
+
 Upload Dataset
+
 Preprocess Dataset
+
 Convert Text to TF-IDF
+
 Run any of the algorithms
+
 View comparison graph
+
+📈 RESULTS
+The Random Forest model performed the best, achieving around 97–98% accuracy. Other models like SVM and MLP also performed well. The class imbalance (more real jobs than fake) was considered during training.
 
 🧰 TECHNOLOGIES USED
 Python
+
 Scikit-learn (for ML models)
+
 NLTK (for NLP processing)
+
 Pandas and NumPy
+
 Tkinter (for GUI)
+
 Matplotlib (for graph visualization)
 
 💡 WHY THIS PROJECT MATTERS
@@ -70,8 +106,11 @@ Fake job postings are a real and growing problem. This project demonstrates how 
 
 🔮 POSSIBLE FUTURE IMPROVEMENTS
 Deploy the app as a web application (using Streamlit or Flask)
+
 Add deep learning models like LSTM or BERT
+
 Include real-time job scraping and live prediction
+
 Improve UI with additional features like CSV export
 
 📬 CONTACT
